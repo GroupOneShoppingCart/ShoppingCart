@@ -30,6 +30,12 @@
                     <td>${pro.id}</td>
                     <td>${pro.name}</td>
                     <td>${pro.price}</td>
+                    <td>
+                        <form name="edit" action="viewDetails" method="post">
+                            <input type="submit" value="View Details" />
+                            <input type="hidden" name="pro_id" value="${pro.id}"/>
+                        </form>
+                    </td>
                 </tr>
             </c:forEach>
         </table>
