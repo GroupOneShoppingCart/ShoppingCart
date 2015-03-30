@@ -20,6 +20,7 @@
                 <td>Product ID</td>                
                 <td>Product Name</td>                
                 <td>Product Price</td>
+                
             </tr>
             <c:forEach items="${listcart}" var="pro">
                 <tr>
